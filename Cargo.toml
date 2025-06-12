@@ -1,0 +1,10 @@
+[package]
+name = "rustfile_summariser"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+syn          = { version = "2.0", features = ["full", "visit-mut"] }
+prettyplease = "0.2"          # pretty-printer for a syn::File
+anyhow = "1.0.98"
+quote = "1.0.40"
